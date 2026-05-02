@@ -10,34 +10,36 @@ const SAMPLE_PROMPTS = [
 
 export default function Home() {
   return (
-    <main className="flex-1 flex flex-col items-center px-4 py-10 sm:py-16">
+    <main className="flex-1 flex flex-col items-center px-5 py-14 sm:py-20">
       <header className="w-full max-w-3xl">
-        <p className="text-xs uppercase tracking-widest text-neutral-500 dark:text-neutral-400">
+        <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-neutral-500 dark:text-neutral-400">
           ANU Buildathon · Tool for Students
         </p>
-        <h1 className="mt-2 text-4xl font-bold sm:text-5xl">
-          ANU Compass
+        <h1 className="mt-3 text-5xl sm:text-6xl md:text-7xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50">
+          ANU{" "}
+          <span className="bg-gradient-to-br from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300">
+            Compass
+          </span>
         </h1>
-        <p className="mt-3 text-lg text-neutral-600 dark:text-neutral-300">
-          Describe what&apos;s going on. Get a structured plan grounded in ANU policy,
-          on-campus services, and lived experience from r/anu — with fallbacks
-          for when the main path is blocked.
+        <p className="mt-5 max-w-2xl text-lg sm:text-xl text-neutral-600 dark:text-neutral-300 leading-relaxed">
+          Describe what&apos;s going on. Get a structured plan grounded in
+          policy, services, and lived experience from r/anu — with fallbacks
+          when the main path is blocked.
         </p>
       </header>
 
-      <section className="w-full max-w-3xl mt-8">
+      <section className="w-full max-w-3xl mt-10 sm:mt-12">
         <QueryForm samplePrompts={SAMPLE_PROMPTS} />
       </section>
 
-      <footer className="w-full max-w-3xl mt-16 text-xs text-neutral-500 dark:text-neutral-400 leading-relaxed">
-        <p className="font-medium">A few honest notes</p>
-        <ul className="mt-2 space-y-1 list-disc list-inside">
-          <li>
-            This is a hackathon prototype, not an official ANU service. Always
-            verify outcomes via{" "}
+      <footer className="w-full max-w-3xl mt-20 pb-4">
+        <div className="border-t border-black/5 dark:border-white/10 pt-6 text-xs text-neutral-500 dark:text-neutral-400 leading-relaxed space-y-1.5">
+          <p>
+            A hackathon prototype, not an official ANU service. Verify outcomes
+            via{" "}
             <a
               href="https://my.anu.edu.au"
-              className="underline hover:text-neutral-700 dark:hover:text-neutral-200"
+              className="underline-offset-2 hover:underline hover:text-neutral-800 dark:hover:text-neutral-200"
               target="_blank"
               rel="noreferrer"
             >
@@ -46,23 +48,32 @@ export default function Home() {
             and{" "}
             <a
               href="https://policies.anu.edu.au"
-              className="underline hover:text-neutral-700 dark:hover:text-neutral-200"
+              className="underline-offset-2 hover:underline hover:text-neutral-800 dark:hover:text-neutral-200"
               target="_blank"
               rel="noreferrer"
             >
               policies.anu.edu.au
             </a>
             .
-          </li>
-          <li>
-            For immediate danger, call <strong>000</strong>. Lifeline (24/7) is{" "}
-            <strong>13&nbsp;11&nbsp;14</strong>.
-          </li>
-          <li>
-            Contact details, hours, and processes change — treat the output as a
-            starting point, not gospel.
-          </li>
-        </ul>
+          </p>
+          <p>
+            For immediate danger,{" "}
+            <a
+              href="tel:000"
+              className="font-medium text-neutral-800 dark:text-neutral-200 underline-offset-2 hover:underline"
+            >
+              call 000
+            </a>
+            . Lifeline (24/7):{" "}
+            <a
+              href="tel:131114"
+              className="font-medium text-neutral-800 dark:text-neutral-200 underline-offset-2 hover:underline"
+            >
+              13 11 14
+            </a>
+            .
+          </p>
+        </div>
       </footer>
     </main>
   );

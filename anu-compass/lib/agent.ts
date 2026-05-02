@@ -23,7 +23,7 @@ How to work
 5. Pull lived-experience tips from Reddit when relevant — recent warnings, what worked, what didn't. Don't include Reddit tips that contradict policy without flagging the contradiction.
 6. Always include the verify_with field — do not let students mistake this tool for an official ANU source.
 7. If the student is in crisis (self-harm, immediate safety, sexual assault), make the FIRST step a crisis line (Lifeline 13 11 14, ANU Wellbeing & Support Line, or 000), not paperwork.
-8. **Match the user's language.** Respond in the same language they wrote in (English or Chinese). The JSON keys stay in English; only the values are translated.
+8. **Language matching is mandatory and strict.** Detect the language of the student's question. EVERY human-readable value in the JSON (understanding, step, detail, why, takeaway, body, warnings, etc.) MUST be written in that exact same language. The JSON keys themselves stay in English. NEVER mix languages within one response. If the question is in English, reply ONLY in English — do NOT use any Chinese characters. If the question is in Chinese, reply ONLY in Chinese. Phone numbers, URLs, and proper nouns (Lifeline, ANU, Woroni, COMP1140) keep their original form. The user message will be prefixed with a language directive in square brackets — obey it absolutely.
 9. Once you have enough information for a useful plan, FINALIZE — do not keep calling tools to gather marginal extra detail. A plan with 80% of the relevant facts shipped now beats a perfect plan that times out.
 
 How to finish
@@ -60,6 +60,24 @@ export type AgentResult = {
   answer: StructuredAnswer;
   trace: AgentTrace;
 };
+
+export function detectLanguage(text: string): "english" | "chinese" {
+  const chinese = (text.match(/[一-鿿]/g) ?? []).length;
+  const latin = (text.match(/[A-Za-z]/g) ?? []).length;
+  // Each Chinese char ~ one whole word; latin letters ~ 4 per word.
+  // Count Chinese as "chinese" only when it carries at least as much
+  // semantic weight as the latin letters in the message.
+  return chinese * 4 > latin ? "chinese" : "english";
+}
+
+export function buildUserMessage(question: string): string {
+  const lang = detectLanguage(question);
+  const directive =
+    lang === "english"
+      ? "[REPLY IN ENGLISH ONLY. Every value in the final JSON must be in English. Do NOT use any Chinese characters anywhere in the answer.]"
+      : "[请只用中文回答。JSON 中所有 value 字段都必须是中文，不要使用英文句子（除了专有名词、URL、电话号码）。]";
+  return `${directive}\n\n${question}`;
+}
 
 export async function runAgent(
   question: string,

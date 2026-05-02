@@ -18,6 +18,8 @@ export const metadata: Metadata = {
     "Describe a real student situation and get a structured action plan grounded in ANU policy, services, and lived experience from r/anu.",
 };
 
+const themeBootstrap = `(function(){try{var el=document.documentElement;var m=localStorage.getItem('anu-compass:mode');if(m!=='light'&&m!=='dark'){m=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';}el.setAttribute('data-mode',m);var t=localStorage.getItem('anu-compass:theme');if(t==='warm'||t==='navy'||t==='forest'||t==='pure'){el.setAttribute('data-theme',t);}}catch(e){}})();`;
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -28,7 +30,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-neutral-50 text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeBootstrap }} />
+      </head>
+      <body className="min-h-full flex flex-col">
         {children}
       </body>
     </html>

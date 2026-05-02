@@ -4,6 +4,7 @@ import { OPENAI_TOOLS, runTool } from "./tools";
 import {
   MAX_TOOL_TURNS,
   SYSTEM_PROMPT,
+  buildUserMessage,
   parseStructuredAnswer,
   type AgentResult,
 } from "./agent";
@@ -22,7 +23,7 @@ export async function runAgentOpenAI(
 
   const messages: OpenAI.Chat.ChatCompletionMessageParam[] = [
     { role: "system", content: SYSTEM_PROMPT },
-    { role: "user", content: question },
+    { role: "user", content: buildUserMessage(question) },
   ];
 
   let finalText: string | null = null;

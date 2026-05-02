@@ -1,24 +1,137 @@
 @import "tailwindcss";
 
-:root {
-  --background: #fafafa;
+/* Tailwind v4: make `dark:` utility classes resolve from [data-mode="dark"]
+   instead of the prefers-color-scheme media query. Required so utility
+   colors and our CSS variables stay in sync when the user overrides mode. */
+@custom-variant dark (&:where([data-mode="dark"], [data-mode="dark"] *));
+
+/* ========== Theme tokens ========== */
+/* Each rule = one (mode × theme) combination. */
+/* Bare :root rule is the first-paint default before the bootstrap script runs. */
+
+:root,
+:root[data-mode="light"],
+:root[data-mode="light"][data-theme="warm"] {
+  --bg-base: #fafaf9;
+  --bg-glow-1: radial-gradient(
+    ellipse 95% 60% at 50% -20%,
+    rgba(251, 191, 36, 0.18),
+    transparent 70%
+  );
+  --bg-glow-2: radial-gradient(
+    ellipse 60% 50% at 100% 5%,
+    rgba(244, 114, 182, 0.12),
+    transparent 70%
+  );
+  --foreground: #1c1917;
+}
+
+:root[data-mode="light"][data-theme="navy"] {
+  --bg-base: #f1f5f9;
+  --bg-glow-1: radial-gradient(
+    ellipse 95% 60% at 50% -20%,
+    rgba(59, 130, 246, 0.16),
+    transparent 70%
+  );
+  --bg-glow-2: radial-gradient(
+    ellipse 70% 50% at 100% 10%,
+    rgba(14, 165, 233, 0.10),
+    transparent 70%
+  );
+  --foreground: #0f172a;
+}
+
+:root[data-mode="light"][data-theme="forest"] {
+  --bg-base: #f0fdf4;
+  --bg-glow-1: radial-gradient(
+    ellipse 95% 60% at 50% -20%,
+    rgba(16, 185, 129, 0.16),
+    transparent 70%
+  );
+  --bg-glow-2: radial-gradient(
+    ellipse 60% 50% at 100% 5%,
+    rgba(45, 212, 191, 0.10),
+    transparent 70%
+  );
+  --foreground: #052e1a;
+}
+
+:root[data-mode="light"][data-theme="pure"] {
+  --bg-base: #fafafa;
+  --bg-glow-1: none;
+  --bg-glow-2: none;
   --foreground: #171717;
 }
 
+:root[data-mode="dark"],
+:root[data-mode="dark"][data-theme="warm"] {
+  --bg-base: #0c0a09;
+  --bg-glow-1: radial-gradient(
+    ellipse 95% 60% at 50% -20%,
+    rgba(99, 102, 241, 0.22),
+    transparent 70%
+  );
+  --bg-glow-2: radial-gradient(
+    ellipse 60% 50% at 100% 5%,
+    rgba(217, 70, 239, 0.13),
+    transparent 70%
+  );
+  --foreground: #fafaf9;
+}
+
+:root[data-mode="dark"][data-theme="navy"] {
+  --bg-base: #020617;
+  --bg-glow-1: radial-gradient(
+    ellipse 95% 60% at 50% -20%,
+    rgba(34, 211, 238, 0.18),
+    transparent 70%
+  );
+  --bg-glow-2: radial-gradient(
+    ellipse 70% 50% at 100% 10%,
+    rgba(56, 189, 248, 0.12),
+    transparent 70%
+  );
+  --foreground: #e2e8f0;
+}
+
+:root[data-mode="dark"][data-theme="forest"] {
+  --bg-base: #022c22;
+  --bg-glow-1: radial-gradient(
+    ellipse 95% 60% at 50% -20%,
+    rgba(45, 212, 191, 0.20),
+    transparent 70%
+  );
+  --bg-glow-2: radial-gradient(
+    ellipse 60% 50% at 100% 5%,
+    rgba(132, 204, 22, 0.12),
+    transparent 70%
+  );
+  --foreground: #ecfdf5;
+}
+
+:root[data-mode="dark"][data-theme="pure"] {
+  --bg-base: #0a0a0a;
+  --bg-glow-1: none;
+  --bg-glow-2: none;
+  --foreground: #ededed;
+}
+
 @theme inline {
-  --color-background: var(--background);
+  --color-background: var(--bg-base);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background-color: var(--bg-base);
 }
 
 body {
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  color: var(--foreground);
+  background-color: var(--bg-base);
+  background-image: var(--bg-glow-1), var(--bg-glow-2);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }

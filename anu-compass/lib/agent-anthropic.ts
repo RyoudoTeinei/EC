@@ -4,6 +4,7 @@ import { ANTHROPIC_TOOLS, runTool } from "./tools";
 import {
   MAX_TOOL_TURNS,
   SYSTEM_PROMPT,
+  buildUserMessage,
   parseStructuredAnswer,
   type AgentResult,
 } from "./agent";
@@ -21,7 +22,7 @@ export async function runAgentAnthropic(
   });
 
   const messages: Anthropic.MessageParam[] = [
-    { role: "user", content: question },
+    { role: "user", content: buildUserMessage(question) },
   ];
 
   let finalText: string | null = null;
