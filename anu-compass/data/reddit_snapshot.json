@@ -1,0 +1,75 @@
+{
+  "_note": "Cached r/anu posts used as fallback when the live Reddit API is unavailable. Each entry has a topic tag so the agent can pick relevant ones without a live search.",
+  "posts": [
+    {
+      "topic": "special_consideration",
+      "title": "Anyone applied for special consideration recently? How long did it take?",
+      "url": "https://www.reddit.com/r/anu/",
+      "score": 42,
+      "takeaway": "Most replies say turnaround was 5–10 working days. Several recommend uploading the medical certificate immediately and following up by email if no response after a week. One person stressed that you need to apply BEFORE the assessment if possible — retrospective applications are harder."
+    },
+    {
+      "topic": "special_consideration",
+      "title": "Got my special consideration rejected — what now?",
+      "url": "https://www.reddit.com/r/anu/",
+      "score": 28,
+      "takeaway": "Top replies: contact ANUSA Student Assistance, they will help you draft an appeal. Common rejection reason was insufficient evidence — a one-line medical certificate is often not enough; ask the doctor to specify dates and impact."
+    },
+    {
+      "topic": "extensions",
+      "title": "Convener not replying to extension request, due in 3 hours",
+      "url": "https://www.reddit.com/r/anu/",
+      "score": 67,
+      "takeaway": "Strongly recommended: submit whatever you have before the deadline AND email the convener at the same time. Half a mark beats a zero. Several mentioned CCing the course administrator helps."
+    },
+    {
+      "topic": "medical_certificate",
+      "title": "Best bulk-billing GPs near campus?",
+      "url": "https://www.reddit.com/r/anu/",
+      "score": 53,
+      "takeaway": "Frequently mentioned: ANU Medical Centre (best if you can get in), Civic walk-in clinics on Bunda St, Dickson medical centres for weekends. For overnight, 13SICK home visits. Telehealth services praised for quick turnaround when only a certificate is needed."
+    },
+    {
+      "topic": "counselling_services",
+      "title": "How long is the wait for counselling now?",
+      "url": "https://www.reddit.com/r/anu/",
+      "score": 35,
+      "takeaway": "Triage usually 1–2 weeks. People in crisis got seen same day or next day after explicitly saying they were in crisis when booking. Several recommended also booking external services in parallel because internal slots fill up."
+    },
+    {
+      "topic": "academic_integrity",
+      "title": "Reported for AI use — terrified, what do I do?",
+      "url": "https://www.reddit.com/r/anu/",
+      "score": 91,
+      "takeaway": "Universal advice: contact ANUSA Student Assistance immediately and BEFORE responding to the course. Do not delete or modify any drafts or chat history. Be honest — outcomes for cooperative students are usually milder. The process is stressful but not the end of the world."
+    },
+    {
+      "topic": "course_enrolment",
+      "title": "PSA: Census date is closer than you think",
+      "url": "https://www.reddit.com/r/anu/",
+      "score": 120,
+      "takeaway": "If you are unsure about a course, drop it BEFORE census date. After census you owe the full fee and a withdrawal goes on your transcript. Multiple students mentioned getting bills for thousands of dollars from forgotten enrolments."
+    },
+    {
+      "topic": "financial_support",
+      "title": "Genuinely broke, what are my options?",
+      "url": "https://www.reddit.com/r/anu/",
+      "score": 88,
+      "takeaway": "ANUSA Student Assistance is the consistent recommendation as a starting point. ANUSA also runs a free food pantry. Several mentioned the ANU Equity Funds for one-off small grants. Centrelink for citizens. International students are pointed to the International Student Services hardship grants."
+    },
+    {
+      "topic": "access_inclusion",
+      "title": "How do I get an EAP for ADHD?",
+      "url": "https://www.reddit.com/r/anu/",
+      "score": 46,
+      "takeaway": "Get a letter from your psychiatrist or psychologist that describes functional impact (not just diagnosis). Apply early — wait can be 2–4 weeks. Once you have an EAP, you do not have to keep explaining yourself to each convener; the adjustments are visible automatically."
+    },
+    {
+      "topic": "isolated_student",
+      "title": "First-year, don't know anyone, what do I do?",
+      "url": "https://www.reddit.com/r/anu/",
+      "score": 75,
+      "takeaway": "Top suggestions: join 2–3 clubs at O-Week markets (don't overcommit), say yes to your residential hall events even when you don't feel like it, attend tutorials early and chat to the people next to you, consider becoming a mentor or PASS leader in second year — it forces social contact in a structured way."
+    }
+  ]
+}

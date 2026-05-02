@@ -1,0 +1,53 @@
+{
+  "_note": "Fallback snapshot used when the live Woroni RSS feed is unavailable. These illustrative entries reflect the kinds of student-journalism coverage Woroni publishes (policy changes, residential life, mental health, ANUSA elections, climate). The live RSS at https://www.woroni.com.au/feed/ is the primary source.",
+  "articles": [
+    {
+      "title": "Special Consideration backlog leaves students in limbo",
+      "url": "https://www.woroni.com.au/news/",
+      "description": "Students report multi-week waits for Special Consideration outcomes during peak exam periods. ANUSA has called on the university to publicly publish turnaround targets and to allow conditional grade submissions while applications are pending.",
+      "pubDate": "2025-11-04T10:00:00Z"
+    },
+    {
+      "title": "Mental health services strained as Counselling waitlist grows",
+      "url": "https://www.woroni.com.au/news/",
+      "description": "Triage waits at ANU Counselling have stretched to 2-3 weeks at semester peaks. Students in crisis have been redirected to the 24/7 ANU Wellbeing & Support Line and Lifeline; some have paid for external psychologists out of pocket while waiting.",
+      "pubDate": "2025-10-22T10:00:00Z"
+    },
+    {
+      "title": "AI in coursework: ANU's patchwork of rules confuses students",
+      "url": "https://www.woroni.com.au/news/",
+      "description": "Without a single university-wide AI policy, every course outline now sets its own rules. Students report unclear or contradictory guidance, and a rise in misconduct referrals where AI tools were used in ways the convener later judged disallowed.",
+      "pubDate": "2025-09-30T10:00:00Z"
+    },
+    {
+      "title": "Hardship grants oversubscribed as cost of living bites",
+      "url": "https://www.woroni.com.au/news/",
+      "description": "ANU Equity Funds and ANUSA's emergency support requests have surged this semester. Students are urged to apply early and combine multiple smaller grants rather than wait for one large one. International students remain ineligible for Centrelink and rely on hardship grants and on-campus work.",
+      "pubDate": "2025-09-12T10:00:00Z"
+    },
+    {
+      "title": "Census date catches students unaware: $2k bills and unwanted W marks",
+      "url": "https://www.woroni.com.au/news/",
+      "description": "Several students report receiving large fee invoices for courses they intended to drop but missed the census deadline. ANUSA is pushing for clearer in-system reminders 7 and 3 days before census, and for an extended grace period for first-year students.",
+      "pubDate": "2025-08-18T10:00:00Z"
+    },
+    {
+      "title": "Residential hall rents jump 12 percent; student union demands cap",
+      "url": "https://www.woroni.com.au/news/",
+      "description": "Annual rent increases in ANU residential halls are outpacing CPI, raising concerns about access for students from regional and lower-income backgrounds. Hardship-based rent relief is available case-by-case but is rarely advertised.",
+      "pubDate": "2025-07-29T10:00:00Z"
+    },
+    {
+      "title": "EAP applications double after ADHD assessment surge",
+      "url": "https://www.woroni.com.au/news/",
+      "description": "Education Access Plan applications have grown sharply, particularly for ADHD-related adjustments. Access and Inclusion advisers report 2-4 week wait times near semester start; applying mid-semester is faster.",
+      "pubDate": "2025-07-08T10:00:00Z"
+    },
+    {
+      "title": "International students caught between work-hour caps and rent",
+      "url": "https://www.woroni.com.au/news/",
+      "description": "The 48-hours-per-fortnight visa work limit during semester is squeezing international students paying market-rate rent. ANU's International Student Services has expanded its hardship grant pool, but applications must include detailed budget evidence.",
+      "pubDate": "2025-06-15T10:00:00Z"
+    }
+  ]
+}

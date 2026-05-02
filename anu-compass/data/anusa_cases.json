@@ -1,0 +1,85 @@
+{
+  "_disclaimer": "These are ILLUSTRATIVE PATTERNS, not real ANUSA cases. They reflect commonly reported scenarios from public ANUSA materials, Woroni reporting, and r/anu, anonymised and abstracted. Use them to predict what tends to go wrong and what tends to work — never quote them as if they were a specific person's case.",
+  "cases": [
+    {
+      "id": "misconduct_chatgpt_essay",
+      "category": "academic_misconduct",
+      "scenario": "First-year student used ChatGPT to brainstorm structure for a take-home essay. Submitted a draft they had written but with phrasing influenced by AI suggestions. Reported by Turnitin AI detector and convener.",
+      "what_student_did": "Contacted ANUSA Student Assistance the same day. Did not delete chat history or drafts. Brought all process notes (research, outline, edit history) to the misconduct meeting. Wrote an honest statement explaining intent and what they actually used AI for.",
+      "outcome": "Required to redo the assessment with no AI use under supervised conditions; mark capped. No misconduct annotation on transcript. Appeal not needed.",
+      "takeaway": "Cooperation + honest reconstruction of process beats denial. Save your drafts."
+    },
+    {
+      "id": "special_consideration_rejected_no_dates",
+      "category": "special_consideration_appeal",
+      "scenario": "Student submitted Special Consideration after a finance final with a medical certificate dated the day AFTER the exam. Application rejected because dates didn't cover the assessment.",
+      "what_student_did": "ANUSA helped draft an appeal. Student returned to GP to obtain a corrected certificate explicitly stating onset date BEFORE the exam (which the GP could verify from notes). Provided pharmacy receipt as additional evidence.",
+      "outcome": "Appeal upheld; supplementary exam granted. Outcome took 3 weeks from initial rejection to supplementary exam date.",
+      "takeaway": "A medical certificate dated AFTER the affected assessment is the most common rejection reason. Get the dates right the first time, but appeals with corrected evidence often succeed."
+    },
+    {
+      "id": "extension_silent_convener",
+      "category": "extension_dispute",
+      "scenario": "Student requested a 3-day extension via Wattle 48 hours before deadline. Convener did not respond. Student submitted the assessment 2 days late assuming approval.",
+      "what_student_did": "Submitted late and emailed convener. When the late penalty was applied, contacted ANUSA. ANUSA pointed out the request was timely and never explicitly refused; argued under reasonable-procedural-fairness grounds.",
+      "outcome": "Late penalty waived; mark restored. Convener now acknowledges all extension requests within 24 hours by policy.",
+      "takeaway": "Silence is not approval — but if you applied properly and on time, ANUSA can argue for procedural fairness."
+    },
+    {
+      "id": "hardship_international_no_centrelink",
+      "category": "hardship",
+      "scenario": "Second-year international student lost casual hospitality job mid-semester. Visa caps hours during semester so couldn't simply pick up more work elsewhere. Two weeks of rent owing.",
+      "what_student_did": "Booked ANUSA Student Assistance same week. Provided bank statements + lease + payslip showing job loss. Applied to ANU Equity Funds + International Student Services hardship grant in parallel.",
+      "outcome": "ANUSA emergency food vouchers within 48 hours. Equity Funds grant ($600) approved within 10 days. International Student Services hardship grant ($1,500) approved within 3 weeks. Landlord agreed to a payment plan with ANUSA tenancy advice.",
+      "takeaway": "Apply to multiple smaller grants in parallel rather than waiting on one big one. Bring documents."
+    },
+    {
+      "id": "fees_post_census_circumstances",
+      "category": "fees_refund",
+      "scenario": "Student dropped a course 2 weeks after census date due to family bereavement and inability to attend. Received full fee invoice ($4,800) for the dropped course.",
+      "what_student_did": "Applied for Special Circumstances refund through Fees Office. Provided death certificate and a counsellor's letter on impact on study. ANUSA reviewed the application before submission.",
+      "outcome": "Special Circumstances approved; full refund granted. Withdrawal recorded as W (no academic penalty) instead of WN. Took 4 weeks.",
+      "takeaway": "Post-census withdrawal isn't always a dead end if you have documented serious circumstances. Apply early; bring original documents."
+    },
+    {
+      "id": "tenancy_bond_dispute",
+      "category": "tenancy",
+      "scenario": "Student moved out of a share house. Lead tenant withheld $800 of bond claiming cleaning costs that weren't itemised.",
+      "what_student_did": "Contacted ANUSA tenancy advice (referred to Tenants' Union ACT). Submitted a Bond Refund application directly to ACT Revenue Office without lead-tenant agreement. Provided move-out photos and original condition report.",
+      "outcome": "ACT Revenue Office adjudicated in favour of student; full bond refunded within 6 weeks.",
+      "takeaway": "Take dated photos when you move in AND out. The lead tenant cannot unilaterally keep your bond — go directly to ACT Revenue Office."
+    },
+    {
+      "id": "misconduct_collusion_group",
+      "category": "academic_misconduct",
+      "scenario": "Two students in different tutorials submitted essays with significant overlap in structure and phrasing. Both reported for collusion. Neither denied talking through ideas together.",
+      "what_student_did": "Both contacted ANUSA. Each prepared a separate timeline of when they discussed the assignment, what they shared (ideas vs. text), and how they wrote independently. Provided draft histories.",
+      "outcome": "Re-do of assessment for both, no formal misconduct on transcript. Convener now requires individual outline submissions before drafts.",
+      "takeaway": "If you discuss ideas with peers, agree explicitly on what you will and won't share. Keep your own drafts in a way that proves independent writing."
+    },
+    {
+      "id": "special_consideration_mental_health",
+      "category": "special_consideration_appeal",
+      "scenario": "Student in mental health crisis missed multiple assessments over 3 weeks. Did not apply for Special Consideration in the first instance because they were too unwell to navigate forms.",
+      "what_student_did": "ANUSA helped them apply retrospectively with a supporting letter from ANU Counselling and a GP medical certificate covering the affected period. Submitted formally about 4 weeks after the first missed assessment.",
+      "outcome": "Approved with mark adjustment for two assessments and supplementary exam for the third. College acknowledged the lateness was itself a symptom of the underlying issue.",
+      "takeaway": "If you were too unwell to apply on time, retrospective applications are accepted with strong documentation. Don't write yourself off because the deadline passed."
+    },
+    {
+      "id": "discrimination_race",
+      "category": "discrimination",
+      "scenario": "International student felt singled out by a tutor's repeated comments on their accent during participation marking. Participation grade was significantly below their assessment marks.",
+      "what_student_did": "Documented incidents with dates. Spoke to ANUSA, who helped draft a formal complaint to the College's Associate Dean (Education). Did not directly confront the tutor.",
+      "outcome": "College investigation upheld concerns about marking criteria. Participation grade re-evaluated by another staff member; raised by one full grade. Tutor received feedback and additional training.",
+      "takeaway": "Document, don't escalate alone. ANUSA can take a formal complaint forward without you having to confront the academic directly."
+    },
+    {
+      "id": "general_program_transfer",
+      "category": "general",
+      "scenario": "Student in second year of Bachelor of Science wanted to transfer to Bachelor of Engineering, worried about losing credit and adding years.",
+      "what_student_did": "Booked an appointment with both Colleges' Student Administration. Brought a clear list of completed courses with grades. ANUSA reviewed the proposed credit map before formal submission.",
+      "outcome": "Transferred mid-year. 60 units of credit recognised; expected graduation delayed by one semester instead of two years.",
+      "takeaway": "Talk to BOTH the receiving and current college's Student Administration before applying. ANUSA can sanity-check the credit map."
+    }
+  ]
+}

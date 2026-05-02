@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "special_consideration",
+    "title": "Special Consideration",
+    "summary": "Mark / outcome adjustment when serious uncontrollable circumstances (illness, bereavement, accident, mental-health crisis) affect performance. Submitted via eForms within 3 working days, requires third-party documentation.",
+    "keywords": ["special consideration", "extenuating circumstances", "ill before exam", "missed exam", "deferred", "supplementary", "compassionate", "bereavement", "mental health crisis"]
+  },
+  {
+    "slug": "extensions",
+    "title": "Assignment Extension",
+    "summary": "Extra time to submit a single assessment, approved by the course convener (not the College). Apply BEFORE the due date via Wattle or email.",
+    "keywords": ["extension", "late submission", "more time", "deadline", "assignment due", "wattle extension", "convener email"]
+  },
+  {
+    "slug": "medical_certificate",
+    "title": "Medical Certificates for Assessments",
+    "summary": "Requirements for valid medical certificates supporting Special Consideration / Extension. Where to obtain on and off campus, including options for international students with OSHC.",
+    "keywords": ["medical certificate", "doctor's note", "GP", "bulk billing", "OSHC", "telehealth", "ANU medical centre", "after hours doctor"]
+  },
+  {
+    "slug": "counselling_services",
+    "title": "Counselling and Mental Health Support",
+    "summary": "ANU Counselling (free, on campus) for stress, anxiety, low mood, adjustment, grief. Includes after-hours and crisis services (Lifeline, ANU Wellbeing & Support Line, 1800RESPECT, 13YARN).",
+    "keywords": ["counselling", "therapist", "mental health", "anxiety", "depression", "stressed", "crisis", "suicidal", "lonely", "homesick", "grief", "lifeline", "13yarn"]
+  },
+  {
+    "slug": "health_services",
+    "title": "Medical and Health Services on Campus",
+    "summary": "ANU Medical Centre (Building 156) hours, billing, services. Where to go when ANU is closed. Sexual health, vaccination, pharmacy, after-hours options.",
+    "keywords": ["doctor", "GP", "medical centre", "sick", "fever", "cold", "flu", "stomach", "pain", "hospital", "emergency", "bulk bill", "OSHC", "pharmacy", "STI", "contraception", "vaccine"]
+  },
+  {
+    "slug": "academic_integrity",
+    "title": "Academic Integrity and AI Use",
+    "summary": "What counts as misconduct (plagiarism, collusion, contract cheating, AI misuse). Course-by-course rules on generative AI. What to do if reported. ANUSA Student Assistance can support you.",
+    "keywords": ["plagiarism", "academic misconduct", "cheating", "ChatGPT", "AI policy", "collusion", "Turnitin", "reported", "investigated", "appeal"]
+  },
+  {
+    "slug": "access_inclusion",
+    "title": "Access and Inclusion (Education Access Plan)",
+    "summary": "Formal adjustments for disability, ongoing health condition, mental-health condition, or carer responsibilities. Includes extra exam time, rest breaks, attendance flexibility. Apply via my.anu.edu.au; allow 2-4 weeks.",
+    "keywords": ["disability", "EAP", "education access plan", "ADHD", "autism", "chronic illness", "extra time exam", "rest break", "carer", "accommodation", "reasonable adjustment"]
+  },
+  {
+    "slug": "financial_support",
+    "title": "Financial Support and Hardship",
+    "summary": "Pathways for emergency hardship (ANUSA Student Assistance, Equity Funds), ongoing support (Centrelink, scholarships, on-campus jobs), international student options, fee deferrals and refunds, housing.",
+    "keywords": ["money", "broke", "hardship", "scholarship", "Centrelink", "rent", "fees", "HECS", "FEE-HELP", "Special Circumstances refund", "emergency grant", "food", "international student work"]
+  },
+  {
+    "slug": "course_enrolment",
+    "title": "Course Selection, Enrolment and Census Date",
+    "summary": "Programs and Courses, ISIS, prerequisites, census date, withdrawal penalties (WD vs WN), cross-institutional study, program transfer, common enrolment mistakes.",
+    "keywords": ["enrol", "enrolment", "course selection", "prerequisite", "ISIS", "Programs and Courses", "census date", "drop course", "withdraw", "WAM", "program transfer", "honours", "cross-institutional"]
+  }
+]

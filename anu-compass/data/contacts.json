@@ -1,0 +1,155 @@
+{
+  "contacts": [
+    {
+      "id": "anu_medical_centre",
+      "name": "ANU Medical Centre",
+      "category": "medical",
+      "purpose": "General practice, medical certificates, vaccinations, women's health, sexual health.",
+      "location": "Health & Wellbeing Centre, Building 156, Fellows Lane, Acton",
+      "hours": "Mon–Fri 8:30–17:00 (closed weekends and public holidays)",
+      "phone": "+61 2 6125 3598",
+      "url": "https://www.anu.edu.au/students/health-safety-wellbeing/anu-medical-services",
+      "notes": "Bulk-bills with Medicare. Direct billing for major OSHC providers (Bupa, Allianz, Medibank, nib). Same-day appointments fill quickly — call when they open.",
+      "verified": false
+    },
+    {
+      "id": "anu_counselling",
+      "name": "ANU Counselling Centre",
+      "category": "mental_health",
+      "purpose": "Free confidential counselling for ANU students.",
+      "location": "Health & Wellbeing Centre, Building 156, Fellows Lane, Acton",
+      "hours": "Mon–Fri 9:00–17:00 (not 24/7 — see crisis lines for after hours)",
+      "phone": "+61 2 6125 2442",
+      "url": "https://www.anu.edu.au/students/health-safety-wellbeing/counselling",
+      "notes": "Triage appointment usually within 1–2 weeks. Urgent slots reserved for crisis — say so when booking. Can write supporting letters for Special Consideration."
+    },
+    {
+      "id": "anu_wellbeing_line",
+      "name": "ANU Wellbeing & Support Line",
+      "category": "mental_health",
+      "purpose": "24/7 confidential phone support for ANU students.",
+      "hours": "24/7",
+      "url": "https://www.anu.edu.au/students/health-safety-wellbeing/getting-help-in-a-crisis",
+      "notes": "Phone number is published on the ANU Crisis page; use that link for the current number."
+    },
+    {
+      "id": "anu_security",
+      "name": "ANU Security",
+      "category": "safety",
+      "purpose": "On-campus emergencies, safety walks at night, lockouts. 24/7.",
+      "hours": "24/7",
+      "phone": "+61 2 6125 2249",
+      "url": "https://services.anu.edu.au/business-units/security",
+      "notes": "Number is on the back of your student card. Also runs Safety Walks: a security officer can accompany you across campus at night."
+    },
+    {
+      "id": "access_inclusion",
+      "name": "Access and Inclusion",
+      "category": "disability",
+      "purpose": "Education Access Plans for disability, ongoing health conditions, mental health, carer responsibilities.",
+      "url": "https://www.anu.edu.au/students/contacts/access-inclusion",
+      "phone": "+61 2 6125 5036",
+      "notes": "Apply via my.anu.edu.au → Access and Inclusion. Allow 2–4 weeks; longer near semester start."
+    },
+    {
+      "id": "anusa_student_assistance",
+      "name": "ANUSA Student Assistance",
+      "category": "advocacy",
+      "purpose": "Free, confidential, independent advocacy for academic misconduct, appeals, financial hardship, tenancy, general student issues.",
+      "url": "https://anusa.com.au/assistance/",
+      "notes": "Independent of ANU. Recommended first stop if you have been reported for academic misconduct, or if you need help navigating university processes. They can also help with food vouchers and emergency support."
+    },
+    {
+      "id": "student_central",
+      "name": "Student Central",
+      "category": "admin",
+      "purpose": "First-stop counter for general student admin questions: ID cards, enrolment, fees referrals.",
+      "location": "Kambri Cultural Centre area, Acton",
+      "hours": "Mon–Fri 9:00–17:00",
+      "phone": "+61 2 6125 3339",
+      "url": "https://www.anu.edu.au/students/contacts"
+    },
+    {
+      "id": "fees_office",
+      "name": "ANU Fees Office",
+      "category": "admin",
+      "purpose": "Tuition fees, payment plans, fee deferrals, refunds.",
+      "email": "fees@anu.edu.au",
+      "url": "https://www.anu.edu.au/students/program-administration/fees-financials",
+      "notes": "Contact BEFORE the due date if you cannot pay — they have payment plans. Otherwise you risk being administratively withdrawn."
+    },
+    {
+      "id": "international_student_services",
+      "name": "ANU International Student Services",
+      "category": "international",
+      "purpose": "Visa, OSHC, hardship grants and general support for international students.",
+      "url": "https://www.anu.edu.au/students/contacts/international-student-services"
+    },
+    {
+      "id": "lifeline",
+      "name": "Lifeline",
+      "category": "crisis",
+      "purpose": "24/7 national crisis support and suicide prevention.",
+      "phone": "13 11 14",
+      "url": "https://www.lifeline.org.au",
+      "hours": "24/7",
+      "notes": "Free call. Phone, text (0477 13 11 14) and online chat all available."
+    },
+    {
+      "id": "thirteen_yarn",
+      "name": "13YARN",
+      "category": "crisis",
+      "purpose": "24/7 crisis support line for Aboriginal and Torres Strait Islander people.",
+      "phone": "13 92 76",
+      "url": "https://www.13yarn.org.au",
+      "hours": "24/7"
+    },
+    {
+      "id": "beyond_blue",
+      "name": "Beyond Blue",
+      "category": "crisis",
+      "purpose": "24/7 mental-health support line.",
+      "phone": "1300 22 4636",
+      "url": "https://www.beyondblue.org.au",
+      "hours": "24/7"
+    },
+    {
+      "id": "respect_1800",
+      "name": "1800RESPECT",
+      "category": "crisis",
+      "purpose": "Sexual assault, domestic and family violence support, 24/7.",
+      "phone": "1800 737 732",
+      "url": "https://www.1800respect.org.au",
+      "hours": "24/7"
+    },
+    {
+      "id": "emergency_000",
+      "name": "Emergency Services",
+      "category": "crisis",
+      "purpose": "Police, ambulance, fire — immediate risk to life.",
+      "phone": "000",
+      "hours": "24/7",
+      "notes": "If you are in immediate danger, call 000."
+    },
+    {
+      "id": "thirteen_sick",
+      "name": "13SICK National Home Doctor",
+      "category": "medical",
+      "purpose": "After-hours bulk-billed home GP visits.",
+      "phone": "13 7425",
+      "url": "https://13sick.com.au",
+      "hours": "Weeknights from 18:00, Saturdays from 12:00, 24h on Sundays and public holidays",
+      "notes": "Bulk-billed for Medicare card holders. Useful when ANU Medical Centre is closed and you need a doctor at home."
+    },
+    {
+      "id": "canberra_sexual_health",
+      "name": "Canberra Sexual Health Centre",
+      "category": "medical",
+      "purpose": "Free, walk-in, confidential STI testing and sexual-health services.",
+      "location": "Canberra Hospital, Garran",
+      "url": "https://www.health.act.gov.au/services-and-programs/sexual-health-services/canberra-sexual-health-centre",
+      "notes": "Free regardless of Medicare status; good option for international students."
+    }
+  ],
+  "_disclaimer": "Contact details are summarised from public ANU pages and may change. Always verify the current phone number, email, and hours via anu.edu.au or my.anu.edu.au before relying on it."
+}

@@ -1,0 +1,31 @@
+# Claude Code local settings
+.claude/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local env files anywhere in the tree
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.local.example
+
+# Common build / dependency artefacts (defensive — sub-projects also list these)
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+**/dist/
+**/coverage/
+*.tsbuildinfo
